@@ -1,20 +1,42 @@
-# Probability-Simulator
-A tool to simulate coin tosses, dice rolls, etc.
+# Probability Simulator
 
-This project simulates coin tosses and dice rolls, visualizes the outcomes, and uses a machine learning model to demonstrate prediction based on past outcomes.
+A comprehensive Probability Simulator built in Python for exploring, visualizing, and understanding various probability distributions, random events, and statistical concepts. This tool is designed for students, educators, and enthusiasts to simulate experiments, analyze results, and deepen their grasp of probability theory through interactive code.
 
 ## Features
-- Coin toss and dice roll simulator
-- Probability visualizations
-- Random forest classifier to predict dice outcomes
 
-## How to Run
-1. Install dependencies: `pip install numpy pandas matplotlib seaborn scikit-learn`
-2. Run: `python app.py`
+- **Simulate Classic Probability Experiments:**  
+  - Coin tosses
+  - Dice rolls
+  - Card draws
+  - Custom events
 
-## Files
-- `simulator.py`: Simulation logic
-- `visualizer.py`: Graph plotting
-- `ml_model.py`: ML training
-- `app.py`: Main app runner
-- `README.md`: Project documentation
+- **Probability Distributions:**  
+  - Uniform, Binomial, Normal, Poisson, and more
+  - Generate random samples from distributions
+  - Visualize probability mass/density functions
+
+- **Statistical Analysis:**  
+  - Calculate mean, variance, and other statistics
+  - Run Monte Carlo simulations
+  - Compare empirical vs. theoretical results
+
+- **Visualization:**  
+  - Plot histograms, PMFs, and CDFs
+  - Show convergence of simulated probabilities
+
+- **Extensible:**  
+  - Easily add new experiments or distributions
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.7+
+- Recommended: [pip](https://pip.pypa.io/en/stable/)
+
+### Installation
+
+Clone this repository:
+```bash
+git clone https://github.com/Deekshanaik2004/Probability-Simulator.git
+cd Probability-Simulator
